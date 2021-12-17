@@ -16,12 +16,12 @@ const Layout = ({ children, home }) => {
           <span className="text-2xl">Golfr 🏌️</span>
           <span className="text-xl">
             {home ? (
-                <span className="text-xl">Home</span>
-              ) : (
-                <Link href="/">
-                  <a>Home</a>
-                </Link>
-              )}
+              <span className="text-xl">Home</span>
+            ) : (
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            )}
           </span>
         </span>
         <span className="h-8 items-center text-xl ml-auto">

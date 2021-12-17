@@ -1,4 +1,4 @@
-import Layout from "../../components/Layout";
+import Layout from '../../components/Layout'
 import ScorePostWidget from '../../components/ScorePostWidget'
 import ScoreCard from '../../components/ScoreCard'
 import useScoresOfGolfer from '../../lib/useScoresOfGolfer'
@@ -8,7 +8,7 @@ export default function Golfer() {
   const router = useRouter()
   const { id } = router.query
   const { scores, error } = useScoresOfGolfer(id)
-  
+
   return (
     <Layout>
       <>
